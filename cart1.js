@@ -4,9 +4,9 @@ let iconCartLink = document.getElementById('a5');
 let iconCartSpan = document.querySelector('.icon-cart span');
 let body = document.querySelector('body');
 let closeCart = document.querySelector('.close');
-let starter = [];
-let mainourse = [];
-let dessert = [];
+let starterProducts = [];
+let mainCourseProducts = [];
+let dessertProducts = [];
 let cart = [];
 
 iconCartLink.addEventListener('click', (event) => {
@@ -125,6 +125,28 @@ const changeQuantityCart = (product_id, type) => {
         }
     }
     addCartToHTML();
+};
+
+const checkoutButton = document.querySelector('.checkOut');
+checkoutButton.addEventListener('click', () => {
+    calculateTotalBill();
+});
+
+const calculateTotalBill = () => {
+    let totalBill = 0;
+
+    if (cart.length > 0) {
+        cart.forEach(item => {
+            let productInfo = getProductInfo(item.product_id);
+            totalBill += productInfo.price * item.quantity;
+        });
+    }
+
+    if (totalBill > 0) {
+        alert(`Your total bill is ₹${totalBill}`);
+    } else {
+        alert('Your cart is empty. Please add items to the cart before checking out.');
+    }
 };
 
 const initApp = () => {
