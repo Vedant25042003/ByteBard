@@ -1,0 +1,303 @@
+* {
+    background-color: rgb(39, 39, 51);
+    /* transition: all 0.5s; */
+}
+
+#d1 {
+    text-align:left;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 1;
+    width: 1500px;
+    top: 0;
+    height: 30px;
+    background-color: rgb(43, 41, 51);
+    /* border: 2px solid black;  */
+    /* position: absolute; */
+}
+
+
+
+#a1 {
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: orange;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+#a2 {
+    color: orange;
+    text-decoration: none;
+    margin-left: 350px;
+    
+
+}
+
+#a3 {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+#a4 {
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+#a5{
+    color: orange;
+    text-decoration: none;
+    margin-left: 40px;
+
+}
+
+
+#i1 {
+    background-color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    border: 2px black;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+#b1 {
+    color: white;
+    text-decoration: none;
+    border: 2px black;
+    border-radius: 10px;
+}
+
+#log {
+    text-decoration: none;
+   height: 75px;
+   width: 150px;
+    margin-left: 50px;
+    background-color: aqua;
+    border: 2px black;
+    border-radius: 50%;
+}
+
+/* content */
+/* image skider */
+
+.swiper-container {
+    top: 10px;
+    left: 135px;
+    width: 1200px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+
+#slider {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    /* overflow: hidden; */
+    /* position: absolute; */
+}
+.swiper-pagination{
+    background: none;
+}
+.slide {
+    width: 1200px;
+    height: 400px;
+}
+
+
+.butto {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+/* offers */
+
+#offers {
+    height: 280px;
+    width: 1210px;
+    border: 2px solid white;
+    margin-left: 130px;
+    margin-right: 40px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.offer1 {
+    height: 280px;
+    width: 370px;
+
+}
+
+#o1:hover {
+    transform: scale(1.02, 1);
+}
+
+#o2:hover {
+    transform: scale(1.02, 1);
+}
+
+#o3:hover {
+    transform: scale(1.02, 1);
+}
+
+.ofimg {
+    height: 250px;
+    width: 370px;
+}
+
+.ofh {
+    color: white;
+    margin: 0;
+}
+
+/* Menu  */
+/* #slider {
+    top: 10px;
+    height: 400px;
+    width: 1200px;
+    border: 2px solid rgb(13, 13, 13);
+    margin-bottom: 20px;
+    margin-left: 130px;
+    margin-top: 10px;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    position: relative;
+
+} */
+
+
+
+
+/* partition line */
+
+.part {
+    text-align: center;
+    color: orange;
+}
+
+
+#starter {
+    border: 2px solid white;
+    height: 280px;
+    width: 1210px;
+    margin-left: 130px;
+    margin-right: 40px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    text-align: center;
+}
+
+/* starter colomn */
+#star1:hover {
+    transform: scale(1.02, 1.02);
+}
+
+#star1 {
+    height: 250px;
+    width: 375px;
+    margin-left: 25px;
+    /* margin-right: 10px; */
+}
+
+/* Main Course Colomn */
+#main_c:hover {
+    transform: scale(1.02, 1.02);
+}
+
+#main_c {
+    height: 250px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+}
+
+/* Dessert Colomn */
+#dess:hover {
+    transform: scale(1.02, 1.02);
+}
+
+#dess {
+    margin-right: 20px;
+    height: 250px;
+    border: 5px white;
+}
+
+
+#starter h5 {
+    color: white;
+    margin-top: 0;
+}
+
+/* footer */
+footer {
+    border: 2px solid white;
+}
+
+.last {
+    background-color: rgb(35, 35, 44);
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+ul {
+    background-color: rgb(35, 35, 44);
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 0.85rem;
+    background-color: rgb(35, 35, 44);
+}
+
+ul p {
+    color: orange;
+    font-size: 1.2rem;
+}
+
+#last1 {
+    display: flex;
+    margin-left: 700px;
+}
+
+#last1 h2 {
+    margin-top: 1px;
+    margin-bottom: 0;
+    height: fit-content;
+    color: orange;
+    text-align: center;
+    background-color: rgb(35, 35, 44);
+}
+
+#logo {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}

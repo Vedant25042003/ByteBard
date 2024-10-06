@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteBard</title>
+    <link rel="stylesheet" href="css/Menu.css">
+    <link rel="shortcut icon" href="img/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <script src="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.js"></script> -->
+    <!-- <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/6.0.1/firebase-ui-auth.css" /> -->
+
+    <style>
+        
+        .swiper-container {
+            width: 1210px;
+            height: 400px;
+        }
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="slider-container" id="d1" class="navbar">
+            <a id="a1"><i><b>ByteBard</b></i></a>
+            <input type="text" id="i1" placeholder="Search ByteBard">
+            <button id="b1">Search</button>
+            <a href="" id="a2">HOME</a>
+            <a href="Dinein.html" id="a3">DINE IN</a>
+            <a href="reservation.html" id="a4">RESERVATION</a>
+            <a href="cart.html" id="a5">&#128722;</a>
+            <a href="login.html" id="log">BB</a>
+            </div><br>
+    </header>
+
+    <div id="content">
+        <!-- <div id="slider-container">
+            <div id="slider">
+                <img class="slide" id="s1" src="img/slider 1.webp" alt="img">
+                <img class="slide" id="s2" src="img/slider 2.jpg" alt="img2">
+                <img class="slide" id="s3" src="img/slider 3.png" alt="img3">
+            </div>
+            <button id="prev" class="butto">&lt;</button>
+            <button id="next" class="butto">&gt;</button>
+        </div> -->
+
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image:url('img/slider\ 1.webp')"></div>
+                    <div class="swiper-slide" style="background-image:url('img/slider\ 2.jpg')"></div>
+                    <div class="swiper-slide" style="background-image:url('img/slider\ 3.png')"></div>
+                </div><br>
+                <!-- Add Pagination -->  
+                <div class="swiper-pagination"></div> 
+            </div><br>
+            
+            
+
+
+        <h2 class="part" id="part1"><i>**Special Offers**</i></h2><br>
+
+        <div id="offers">
+            <div class="offer1" id="o1">
+                <img class="ofimg" src="img/combo1.jpg" alt="">
+                <h5 class="ofh">Combo Pack</h5>
+            </div>
+            <div class="offer1" id="o2">
+                <img class="ofimg" src="img/starterco.jpg" alt="">
+                <h5 class="ofh">Get 20% Discount on starter</h5>
+            </div>
+            <div class="offer1" id="o3">
+                <img class="ofimg" src="img/mainco.webp" alt="">
+                <h5 class="ofh">Get 10% Discount</h5>
+            </div>
+        </div><br>
+
+        
+        <h2 class="part" id="part2"><i>**Scroll Through Our Menu**</i></h2><br>
+        <div id="starter">
+
+            <div id="star1">
+                <a href="cart.html" target="_blank"><img src="img/starter_main.png" alt="STARTER" id="star1"></a>
+                <!-- <h5>Starter</h5> -->
+            </div>
+            <div id="main_c">
+                <a href="cart.html" target="_blank"><img src="img/main_course.jpg" alt="MAIN COURSE"
+                        id="main_c"></a>
+                <h5>**Menu**</h5>
+            </div>
+            <div id="dess">
+                <a href="cart.html" target="_blank"><img src="img/Desserts.png" alt="DESSERTS" id="dess"></a>
+                <!-- <h5>Dessert</h5> -->
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="last">
+
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="">About Us</a><br>
+                <a href="">Careers</a><br>
+                <a href="">Press Releases</a><br>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="">Register Restaurent</a><br>
+                <a href="">Register Cafe</a><br>
+            </ul>
+            <ul>
+                <p>Social Links</p>
+                <a href="">Instagram</a><br>
+                <a href="">Twitter</a><br>
+                <a href="">Facebook</a><br>
+            </ul>
+            <ul>
+                <p>Contact Us</p>
+                <a href="">G-mail : <br> bytehard@gmail.com</a><br>
+                <a href="">Phone-no</a><br>
+            </ul>
+        </div>
+        <div id="last1">
+            <img id="logo" src="img/favicon.jpeg" alt="">
+            <h2><i><b>ByteBard</b></i></h2>
+        </div>
+
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="js/imageslider.js"></script> -->
+     <script src="js/imageslider.js"></script>
+</body>
+
+</html>

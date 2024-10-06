@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name":" Manchurian ",
+        "price": 200,
+        "image": "img/manchurian.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Cheese Balls ",
+        "price": 250,
+        "image": "img/starter2.webp"
+    },
+    {
+        "id": 3,
+        "name":" Spring Rolls ",
+        "price": 200,
+        "image": "img/starter3.jpg"
+    }
+    
+    
+
+]
