@@ -3,19 +3,19 @@
         "id": 10,
         "name":" Dal",
         "price": 120,
-        "image": "img/maincourseimg/Dals/dal1.jpg"
+        "image": "dal1.jpg"
     },
     {
         "id": 11,
         "name":" Indian Bread",
         "price": 150,
-        "image": "img/maincourseimg/Indian breads/naan.jpg"
+        "image": "naan.jpg"
     },
     {
         "id": 12,
         "name":" Rice",
         "price": 200,
-        "image": "img/maincourseimg/Rice/rice1.jpg"
+        "image": "rice1.jpg"
     }
 
 ]
