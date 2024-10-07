@@ -3,18 +3,18 @@
         "id": 20,
         "name":" Cold Coffee ",
         "price": 300,
-        "image": "img/desserts/coffee.jpg"
+        "image": "coffee.jpg"
     },
     {
         "id": 21,
         "name":" Cake",
         "price": 250,
-        "image": "img/desserts/Dessertcake1.png"
+        "image": "Dessertcake1.png"
     },
     {
         "id": 22,
         "name":" Ice Cream",
         "price": 100,
-        "image": "img/desserts/desserticecream.jpg"
+        "image": "desserticecream.jpg"
     }
 ]
